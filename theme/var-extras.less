@@ -1,47 +1,64 @@
 // COLOR PALETA============ ====
+
+// ==== COLOR GENERAL
+@paleta-white : #fff ;
+@paleta-black : #009688 ;
+
+
+// ==== DESIGN COLOR
 @paleta-teal : #009688 ;
 @paleta-amber : #FFC107 ;
+@paleta-orange : #FF9800 ;
 
 
-//=== Inverted navbar
-// Reset inverted navbar basics
-@navbar-teal-color:                      #fff;
-@navbar-teal-bg:                          @paleta-teal;
+//=== TEAL navbar
+// Reset TEAL navbar basics
+@navbar-teal-color:                      @paleta-white;
+@navbar-teal-bg:                         @paleta-teal;
 @navbar-teal-border:                     transparent;
 
-// Inverted navbar links
-@navbar-teal-link-color:                 #fff;
+// TEAL navbar links
+@navbar-teal-link-color:                 @paleta-white;
 @navbar-teal-link-hover-color:           @brand-primary;
 @navbar-teal-link-hover-bg:              transparent;
-@navbar-teal-link-active-color:          #fff;
+@navbar-teal-link-active-color:          @paleta-white;
 @navbar-teal-link-active-bg:             darken(@navbar-teal-bg, 5%);
 @navbar-teal-link-disabled-color:        #ccc;
 @navbar-teal-link-disabled-bg:           transparent;
 
-// Inverted navbar brand label
+// TEAL navbar brand label
 @navbar-teal-brand-color:                @navbar-teal-link-color;
 @navbar-teal-brand-hover-color:          @navbar-teal-link-hover-color;
 @navbar-teal-brand-hover-bg:             transparent;
 
-// Inverted navbar toggle
+// TEAL navbar toggle
 @navbar-teal-toggle-hover-bg:            darken(@navbar-teal-bg, 10%);
-@navbar-teal-toggle-icon-bar-bg:         #fff;
+@navbar-teal-toggle-icon-bar-bg:         @paleta-white;
 @navbar-teal-toggle-border-color:        darken(@navbar-teal-bg, 10%);
 
+// OPEN .DROPDOWN-MENU
+@navbar-drop-menu-teal-border: 				@paleta-teal;
+@navbar-drop-menu-teal-link-color: 			@brand-primary;
+@navbar-drop-menu-teal-link-hover-color: 	@paleta-white;
+@navbar-drop-menu-teal-link-hover-bg: 		@paleta-teal;
+@navbar-drop-menu-teal-link-active-color: 	@paleta-white;
+@navbar-drop-menu-teal-link-active-bg: 		@paleta-teal;
+@navbar-drop-menu-teal-link-disabled-color: 	@navbar-teal-link-disabled-color;
+@navbar-drop-menu-teal-link-disabled-bg: 	transparent;
 
 
 
 //=== Orange navbar
-// Reset inverted navbar basics
-@navbar-orange-color:                      #fff;
-@navbar-orange-bg:                         @paleta-amber;
+// Reset TEAL navbar basics
+@navbar-orange-color:                      @paleta-white;
+@navbar-orange-bg:                         @paleta-orange;
 @navbar-orange-border:                     transparent;
 
 // Orange navbar links
-@navbar-orange-link-color:                 #fff;
+@navbar-orange-link-color:                 @paleta-white;
 @navbar-orange-link-hover-color:           @brand-primary;
 @navbar-orange-link-hover-bg:              transparent;
-@navbar-orange-link-active-color:          #fff;
+@navbar-orange-link-active-color:          @paleta-white;
 @navbar-orange-link-active-bg:             darken(@navbar-orange-bg, 5%);
 @navbar-orange-link-disabled-color:        #ccc;
 @navbar-orange-link-disabled-bg:           transparent;
@@ -53,6 +70,15 @@
 
 // Orange navbar toggle
 @navbar-orange-toggle-hover-bg:            darken(@navbar-orange-bg, 10%);
-@navbar-orange-toggle-icon-bar-bg:         #fff;
+@navbar-orange-toggle-icon-bar-bg:         @paleta-white;
 @navbar-orange-toggle-border-color:        darken(@navbar-orange-bg, 10%);
 
+// OPEN .DROPDOWN-MENU
+@navbar-drop-menu-orange-border: 				@paleta-orange;
+@navbar-drop-menu-orange-link-color: 			@brand-primary;
+@navbar-drop-menu-orange-link-hover-color: 	@paleta-white;
+@navbar-drop-menu-orange-link-hover-bg: 		@paleta-orange;
+@navbar-drop-menu-orange-link-active-color: 	@paleta-white;
+@navbar-drop-menu-orange-link-active-bg: 		@paleta-orange;
+@navbar-drop-menu-orange-link-disabled-color: 	@navbar-orange-link-disabled-color;
+@navbar-drop-menu-orange-link-disabled-bg: 	transparent;

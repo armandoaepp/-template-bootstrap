@@ -71,7 +71,42 @@
         background-color: @navbar-teal-link-active-bg;
         color: @navbar-teal-link-active-color;
       }
+
     }
+
+    // Dropdowns get custom display
+      .open .dropdown-menu {
+        > .dropdown-header {
+          border-color: @navbar-drop-menu-teal-border;
+        }
+        .divider {
+          background-color: @navbar-drop-menu-teal-border;
+        }
+        > li > a {
+          color: @navbar-drop-menu-teal-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-teal-link-hover-color;
+            background-color: @navbar-drop-menu-teal-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-teal-link-active-color;
+            background-color: @navbar-drop-menu-teal-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-teal-link-disabled-color;
+            background-color: @navbar-drop-menu-teal-link-disabled-bg;
+          }
+        }
+      }
 
     @media (max-width: @grid-float-breakpoint-max) {
       // Dropdowns get custom display
@@ -134,8 +169,9 @@
 }
 
 
-// Orange navbar
 
+
+// Orange navbar
 .navbar-orange {
   background-color: @navbar-orange-bg;
   border-color: @navbar-orange-border;
@@ -209,6 +245,40 @@
       }
     }
 
+    // Dropdowns get custom display
+      .open .dropdown-menu {
+        > .dropdown-header {
+          border-color: @navbar-drop-menu-orange-border;
+        }
+        .divider {
+          background-color: @navbar-drop-menu-orange-border;
+        }
+        > li > a {
+          color: @navbar-drop-menu-orange-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-orange-link-hover-color;
+            background-color: @navbar-drop-menu-orange-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-orange-link-active-color;
+            background-color: @navbar-drop-menu-orange-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-drop-menu-orange-link-disabled-color;
+            background-color: @navbar-drop-menu-orange-link-disabled-bg;
+          }
+        }
+      }
+
     @media (max-width: @grid-float-breakpoint-max) {
       // Dropdowns get custom display
       .open .dropdown-menu {
@@ -268,3 +338,8 @@
     }
   }
 }
+
+
+
+
+
